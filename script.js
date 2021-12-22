@@ -1,5 +1,11 @@
 "use strict";
 
+// Selecting elements
+
+const resultText = document.querySelector(".text");
+const score0 = document.querySelector(".current--0");
+const score1 = document.querySelector(".current--1");
+
 // Function to calc the computer choice
 const computerPlay = function (avv) {
   const random = Math.random();
